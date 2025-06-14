@@ -1,0 +1,55 @@
+body {
+  background-color: #f0f0f0;
+  color: rgb(83, 83, 102);
+  font-family: 'Poppins', sans-serif;
+}
+
+
+.profile-img {
+  height: 300px;
+  width: 300px;
+  border-radius: 60%;
+}
+
+.tagline {
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 60vh;
+  gap: 50px;
+
+
+
+}
+
+.intro {
+  text-align: left;
+
+}
+
+.btn-cv {
+  background-color: rgb(83, 83, 102);
+  color: white;
+  border-radius: 10px;
+  border: none;
+  font-size: 20px;
+  font-family: 'Poppins', sans-serif;
+}
+
+.btn-hire {
+  background-color: rgb(83, 83, 102);
+  color: white;
+  border-radius: 10px;
+  border: none;
+  font-size: 20px;
+  font-family: 'Poppins', sans-serif;
+}
+
+
+.section {
+  font-family: 'Poppins', sans-serif;
+  color: rgb(83, 83, 102);
+  font-size: 20px;
+  margin: 20px;
+}

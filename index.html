@@ -1,0 +1,106 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>portfolio website</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-4Q6Gf2aSP4eDXB8Miphtr37CMZZQ5oXLH2yaXMJ2w8e2ZtHTl7GptT4jmndRuHDT" crossorigin="anonymous">
+  <link href="style.css" rel="stylesheet">
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <div class="container-fluid">
+
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="index.html" >Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="service.html" >Service</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="portfolio.html">Portfolio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/about.html">About Me</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Contact
+            </a>
+            <ul class="dropdown-menu">
+              <li>
+                <a class="dropdown-item" href="tel:+923160109469"
+                  onclick="if(!isMobile()){alert('To call, use a mobile device.'); return false;}">📞 Phone</a>
+              </li>
+              <li>
+                <a class="dropdown-item" href="https://mail.google.com/mail/?view=cm&to=contact.abdullahkhalid@gmail.com" target="_blank">📧 Email</a>
+
+              </li>
+              <li>
+                <a class="dropdown-item" href="https://www.linkedin.com/in/contactabdullahkhalid/" target="_blank">🔗
+                  LinkedIn</a>
+              </li>
+              <li>
+                <a class="dropdown-item" href="https://wa.me/923160109469" target="_blank">💬 WhatsApp</a>
+              </li>
+            </ul>
+          </li>
+
+          <script>
+            function isMobile() {
+              return /iPhone|iPad|iPod|Android|webOS|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent);
+            }
+
+            function isMailSupported() {
+              // Simple check: see if mailto opens (will still depend on user's settings)
+              return !!navigator.userAgent; // This always returns true but shows example — can't detect email client reliably
+            }
+          </script>
+
+
+        </ul>
+
+      </div>
+    </div>
+  </nav>
+  <div class="tagline">
+    <div class="intro">
+      <h1>Hello Im Abdullah Khalid</h1>
+      <h5>AI & Data Science Student</h5>
+      <h5>Python Developer</h5>
+      <h5>Aspiring Machine Learning Engineer</h5>
+      <br>
+      <br>
+      <br>
+      <a href="/cv.html" target="_blank">
+        
+      <button type="button" class="btn-cv btn-lg">Read CV</button>
+      </a>
+      <a href="https://www.linkedin.com/in/contactabdullahkhalid/" target ="_blank">
+        
+      <button type="button" class="btn-hire ">Hire Me</button>
+      </a>
+
+    </div>
+
+    <div>
+      <img src="profilep.jpg" class="profile-img">
+    </div>
+
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-j1CDi7MgGQ12Z7Qab0qlWQ/Qqz24Gc6BM0thvEMVjHnfYGF0rmFCozFSxQBxwHKO"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
